@@ -90,4 +90,5 @@ Task 2-2 is a multiclass clasification challenge (Normal (N), CAS (C), DAS (D), 
 For use in publications and presentations please cite this data collection as follows:
 ```
 Q. Zhang, et al. “SPRSound: Open-Source SJTU Paediatric Respiratory Sound Database”, IEEE Transactions on Biomedical Circuits and Systems (TBioCAS), pp. 1-13, 2022, early access.
+Q. Zhang, et al. “Grand Challenge on Respiratory Sound Classification”, IEEE Biomedical Circuits and Systems Conference (BioCAS), 2022, pp. 1-5.
 ```
