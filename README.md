@@ -12,7 +12,7 @@ Note that the dataset will be fully release after the end of IEEE BioCAS Confere
 * [Database](#database)
 * [Main Tasks](#maintask)
 * [Evaluation Metrics](#evaluation)
-* [License](#license)
+* [Publication](#publication)
 
 
 ## <span id="database">Database</span>
@@ -85,7 +85,7 @@ Task 2-2 is a multiclass clasification challenge (Normal (N), CAS (C), DAS (D), 
 ### Harmonic Score (HS)
 
 
-## <span id="license">License</span>
+## <span id="publication">Publication</span>
 
 For use in publications and presentations please cite this data collection as follows:
 ```
