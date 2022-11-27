@@ -70,14 +70,15 @@ An example of annotation file is as follow:
 ### Task 1 (Respiratory Sound Classification at event Level)
 
 Task 1-1 is a binary class classification challenge (Normal and Adventitious).
-Task 1-2 is a multiclass classification challenge (Normal (N), Rhonchi (R), Wheeze (W), Stridor (S), Coarse Crackle (CC), Fine Crackle (FC), Wheeze & Crackle (WC)).
 
+Task 1-2 is a multiclass classification challenge (Normal (N), Rhonchi (R), Wheeze (W), Stridor (S), Coarse Crackle (CC), Fine Crackle (FC), Wheeze & Crackle (WC)).
 
 ### Task 2 (Respiratory Sound Classification at Record Level)
 
 Task 2-1 is a ternary class classification challenge (Normal, Adventitious, and Poor Quality records).
 
 Task 2-2 is a multiclass clasification challenge (Normal (N), CAS (C), DAS (D), CAS & DAS (CD), or Poor Quality (PQ) records).
+
 ## <span id="evaluation">Evaluation Metrics</span>
 ### Sensitivity (SE)
 ### Specificity (SP)
