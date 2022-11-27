@@ -3,9 +3,6 @@
 This repository contains the released respiratory sound database for IEEE BioCAS 2022 Grand Challenge on Respiratory Sound Classification.
 Please go to this link (http://1.117.17.41:9999/) for more information about the challenge.
 
-Note that the dataset will be fully release after the end of IEEE BioCAS Conference.
-
-
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
