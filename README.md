@@ -1,7 +1,6 @@
 # SPRSound: Open-Source SJTU Paediatric Respiratory Sound Database
 
-This repository contains the released respiratory sound database for IEEE BioCAS 2022 Grand Challenge on Respiratory Sound Classification.
-Please go to this link (http://1.117.17.41:9999/) for more information about the challenge.
+This repository contains the released respiratory sound database for IEEE BioCAS 2022 Grand Challenge on Respiratory Sound Classification. Please refer to this link (http://1.117.17.41:9999/) for more information about the challenge.
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
@@ -13,9 +12,9 @@ Please go to this link (http://1.117.17.41:9999/) for more information about the
 
 
 ## <span id="database">Database</span>
-Our database is the first open access respiratory sound database in pediatric population, aging from 1 month to 18 years old. The respiratory sounds contained in the dataset were recorded at the pediatric respiratory department in Shanghai Children’s Medical Center (SCMC) using Yunting model II Stethoscope. 
+Our database is the first open access respiratory sound database in the pediatric population, aging from 1 month to 18 years old. The respiratory sounds contained in the dataset were recorded at the pediatric respiratory department at Shanghai Children’s Medical Center (SCMC) using Yunting model II Stethoscopes. 
 
-The recordings are saved in .wav format with naming rules as follows: Each name is compromised with 5 elements separated with underscores, including the patient number, age, gender, the recording location, and the recording number of the participants.
+The recordings are saved in .wav format with naming rules as follows: Each name is composed of 5 elements separated with underscores, including the patient number, age, gender, the recording location, and the recording number of the participants.
 1. Patient number (e.g., 65101170)
 2. Age (e.g., 0.4)
 3. Gender
@@ -28,8 +27,10 @@ The recordings are saved in .wav format with naming rules as follows: Each name 
   d. right lateral (p4)
 5. Recording number (e.g., 3246)
 
-The annotations at the record and event level are provided in this database. At the record level, each recording with poor signal quality was annotated as Poor Quality, while the recordings with high signal quality was annotated as Normal, CAS, DAS, or CAS & DAS according to the presence/absence of continuous/discontinuous adventitious respiratory sounds. At the event level, each recording was segmented into multiple respiratory event and annotated as Normal, Rhonchi, Wheeze, Stridor, Coarse Crackle, Fine Crackle, or Wheeze+Crackle. 
-The annotation information of each recording is saved in .json format with the same filename, which contains the annotation at record level and event level. The annotation at record level is Normal, CAS, DAS, CAS & DAS or Poor Quality. The annotation at event level consists of the start (ms) and the end (ms) of respiratory events, and the corresponding type of the respiratory events (Normal, Rhonchi, Wheeze, Stridor, Coarse Crackle, Fine Crackle, Wheeze+Crackle).
+The annotations at the record and event level are provided in this database. At the record level, each recording with poor signal quality was annotated as Poor Quality, while the recordings with high signal quality were annotated as Normal, CAS, DAS, or CAS & DAS according to the presence/absence of continuous/discontinuous adventitious respiratory sounds. At the event level, each recording was segmented into multiple respiratory event and annotated as Normal, Rhonchi, Wheeze, Stridor, Coarse Crackle, Fine Crackle, or Wheeze+Crackle. 
+
+The annotation information of each recording is saved in .json format with the same filename, which contains the annotation at record level and event level. The annotation at record level is Normal, CAS, DAS, CAS & DAS or Poor Quality. The annotation at event level consists of the start (ms) and the end (ms) of respiratory events, and the corresponding type of respiratory events (Normal, Rhonchi, Wheeze, Stridor, Coarse Crackle, Fine Crackle, Wheeze+Crackle).
+
 An example of annotation file is as follow:
 
 ```json
