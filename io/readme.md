@@ -2,10 +2,10 @@
 
 
 # model training
-python3 train.py --task          11
-                 --wav_path      ./wav
-                 --json_path     ./json   
-                 --model_path    ./models
+python3 train.py --task          11 \\
+                 --wav_path      ./wav\\
+                 --json_path     ./json   \\
+                 --model_path    ./models\\
 
 # model validation
 python3 mian.py --task            11
