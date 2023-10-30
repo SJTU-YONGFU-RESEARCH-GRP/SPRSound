@@ -11,6 +11,15 @@ import numpy as np
 import pickle
 import librosa
 
+parser = argparse.ArgumentParser(description='Main')
+parser.add_argument("--task", required=True, type=int, choices=[11, 12, 21, 22],
+                    help="task")
+parser.add_argument("--wav", default='./wav', type=str,
+                    help="test wav file dir")
+parser.add_argument("--out", default='./output/output.json', type=str,
+                    help="output json dir")
+args = parser.parse_args()
+
 
 task_11_dict = {
     0: "Normal",
@@ -92,15 +101,6 @@ def eval(task, data):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Main')
-    parser.add_argument("--task", required=True, type=int, choices=[11, 12, 21, 22],
-                        help="task")
-    parser.add_argument("--wav", default='./wav', type=str,
-                        help="test wav file dir")
-    parser.add_argument("--out", default='./output/output.json', type=str,
-                        help="output json dir")
-    args = parser.parse_args()
-    
     # load test data
     data, file_names = load_test_data(args.wav)
 

@@ -13,6 +13,20 @@ from sklearn.multiclass import OneVsRestClassifier
 from sklearn import svm
 import pickle
 
+
+parser = argparse.ArgumentParser(description='Main')
+parser.add_argument("--task", required=True, type=int, choices=[11, 12, 21, 22],
+                    help="task")
+parser.add_argument("--wav_path", default='./wav', type=str,
+                    help="input wav path")
+parser.add_argument("--json_path", default='./json', type=str,
+                    help="input json dictionary")
+parser.add_argument("--model_path", default='./models', type=str,
+                    help="output model dictionary")
+args = parser.parse_args()
+if not os.path.exists(args.model_path):
+    os.makedirs(args.model_path)
+
 task_11_dict = {'Normal': 0,
                 'Rhonchi': 1,
                 'Wheeze': 1,
@@ -123,19 +137,6 @@ def save_model(model, model_name):
     f.close()
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Main')
-    parser.add_argument("--task", required=True, type=int, choices=[11, 12, 21, 22],
-                        help="task")
-    parser.add_argument("--wav_path", default='./wav', type=str,
-                        help="input wav path")
-    parser.add_argument("--json_path", default='./json', type=str,
-                        help="input json dictionary")
-    parser.add_argument("--model_path", default='./models', type=str,
-                        help="output model dictionary")
-    args = parser.parse_args()
-    if not os.path.exists(args.model_path):
-        os.makedirs(args.model_path)
-
     # load dataset
     X_train, y_train = dataset(args.wav_path, args.json_path, args.task)
 
@@ -146,6 +147,3 @@ if __name__ == "__main__":
     # save the model
     model_name = os.path.join(args.model_path , "task_" + str(args.task) + ".pkl")
     save_model(model, model_name)
-
-
-
