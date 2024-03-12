@@ -1,0 +1,19 @@
+{
+    "event_annotation": [
+        {
+            "start": "33",
+            "end": "2007",
+            "type": "Normal"
+        },
+        {
+            "start": "3369",
+            "end": "5691",
+            "type": "Normal"
+        },
+        {
+            "start": "7184",
+            "end": "9900",
+            "type": "Coarse Crackle"
+        }
+    ]
+}

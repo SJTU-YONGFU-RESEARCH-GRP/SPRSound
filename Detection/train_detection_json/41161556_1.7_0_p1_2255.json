@@ -1,0 +1,74 @@
+{
+    "event_annotation": [
+        {
+            "start": "11768",
+            "end": "12509",
+            "type": "Fine Crackle"
+        },
+        {
+            "start": "902",
+            "end": "1751",
+            "type": "Fine Crackle"
+        },
+        {
+            "start": "13209",
+            "end": "13986",
+            "type": "Fine Crackle"
+        },
+        {
+            "start": "2531",
+            "end": "3073",
+            "type": "Fine Crackle"
+        },
+        {
+            "start": "3216",
+            "end": "3923",
+            "type": "Normal"
+        },
+        {
+            "start": "14710",
+            "end": "15324",
+            "type": "Fine Crackle"
+        },
+        {
+            "start": "3927",
+            "end": "4655",
+            "type": "Fine Crackle"
+        },
+        {
+            "start": "10981",
+            "end": "11660",
+            "type": "Normal"
+        },
+        {
+            "start": "10175",
+            "end": "10922",
+            "type": "Fine Crackle"
+        },
+        {
+            "start": "4739",
+            "end": "5466",
+            "type": "Normal"
+        },
+        {
+            "start": "5617",
+            "end": "6373",
+            "type": "Fine Crackle"
+        },
+        {
+            "start": "6435",
+            "end": "7150",
+            "type": "Normal"
+        },
+        {
+            "start": "7621",
+            "end": "8449",
+            "type": "Normal"
+        },
+        {
+            "start": "8701",
+            "end": "9711",
+            "type": "Fine Crackle"
+        }
+    ]
+}

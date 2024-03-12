@@ -1,0 +1,14 @@
+{
+    "event_annotation": [
+        {
+            "start": "52",
+            "end": "2244",
+            "type": "Stridor"
+        },
+        {
+            "start": "7064",
+            "end": "9045",
+            "type": "Stridor"
+        }
+    ]
+}

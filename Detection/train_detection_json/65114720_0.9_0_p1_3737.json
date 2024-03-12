@@ -1,0 +1,39 @@
+{
+    "event_annotation": [
+        {
+            "start": "17",
+            "end": "469",
+            "type": "Wheeze"
+        },
+        {
+            "start": "501",
+            "end": "912",
+            "type": "Normal"
+        },
+        {
+            "start": "964",
+            "end": "1434",
+            "type": "Wheeze"
+        },
+        {
+            "start": "1476",
+            "end": "2011",
+            "type": "Normal"
+        },
+        {
+            "start": "2093",
+            "end": "2598",
+            "type": "Wheeze"
+        },
+        {
+            "start": "2649",
+            "end": "3290",
+            "type": "Normal"
+        },
+        {
+            "start": "7815",
+            "end": "9082",
+            "type": "Normal"
+        }
+    ]
+}

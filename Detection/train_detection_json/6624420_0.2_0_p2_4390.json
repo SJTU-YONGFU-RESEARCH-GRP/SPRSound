@@ -1,0 +1,34 @@
+{
+    "event_annotation": [
+        {
+            "start": "263",
+            "end": "1547",
+            "type": "Normal"
+        },
+        {
+            "start": "1625",
+            "end": "2865",
+            "type": "Normal"
+        },
+        {
+            "start": "3070",
+            "end": "4081",
+            "type": "Normal"
+        },
+        {
+            "start": "4268",
+            "end": "5233",
+            "type": "Normal"
+        },
+        {
+            "start": "7178",
+            "end": "8231",
+            "type": "Normal"
+        },
+        {
+            "start": "8354",
+            "end": "9153",
+            "type": "Normal"
+        }
+    ]
+}

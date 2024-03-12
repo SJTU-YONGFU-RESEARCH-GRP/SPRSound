@@ -1,0 +1,124 @@
+{
+    "event_annotation": [
+        {
+            "start": "72",
+            "end": "508",
+            "type": "Normal"
+        },
+        {
+            "start": "524",
+            "end": "1104",
+            "type": "Wheeze"
+        },
+        {
+            "start": "1186",
+            "end": "1772",
+            "type": "Normal"
+        },
+        {
+            "start": "1830",
+            "end": "2426",
+            "type": "Wheeze"
+        },
+        {
+            "start": "2457",
+            "end": "2949",
+            "type": "Normal"
+        },
+        {
+            "start": "2982",
+            "end": "3608",
+            "type": "Wheeze"
+        },
+        {
+            "start": "3635",
+            "end": "4135",
+            "type": "Normal"
+        },
+        {
+            "start": "4162",
+            "end": "4807",
+            "type": "Wheeze"
+        },
+        {
+            "start": "4834",
+            "end": "5343",
+            "type": "Normal"
+        },
+        {
+            "start": "6274",
+            "end": "6904",
+            "type": "Normal"
+        },
+        {
+            "start": "6983",
+            "end": "7648",
+            "type": "Wheeze"
+        },
+        {
+            "start": "7698",
+            "end": "8295",
+            "type": "Normal"
+        },
+        {
+            "start": "8350",
+            "end": "8986",
+            "type": "Wheeze"
+        },
+        {
+            "start": "9048",
+            "end": "9637",
+            "type": "Normal"
+        },
+        {
+            "start": "9792",
+            "end": "10366",
+            "type": "Wheeze"
+        },
+        {
+            "start": "10452",
+            "end": "11071",
+            "type": "Normal"
+        },
+        {
+            "start": "11129",
+            "end": "11645",
+            "type": "Wheeze"
+        },
+        {
+            "start": "11681",
+            "end": "12158",
+            "type": "Normal"
+        },
+        {
+            "start": "12214",
+            "end": "12803",
+            "type": "Wheeze"
+        },
+        {
+            "start": "12855",
+            "end": "13338",
+            "type": "Normal"
+        },
+        {
+            "start": "13458",
+            "end": "14006",
+            "type": "Wheeze"
+        },
+        {
+            "start": "14079",
+            "end": "14616",
+            "type": "Normal"
+        },
+        {
+            "start": "14715",
+            "end": "15232",
+            "type": "Wheeze"
+        },
+        {
+            "start": "5430",
+            "end": "6263",
+            "type": "Wheeze"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "event_annotation": [
+        {
+            "start": "3007",
+            "end": "4111",
+            "type": "Fine Crackle"
+        },
+        {
+            "start": "6379",
+            "end": "7493",
+            "type": "Fine Crackle"
+        }
+    ]
+}

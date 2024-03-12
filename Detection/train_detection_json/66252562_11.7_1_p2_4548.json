@@ -1,0 +1,19 @@
+{
+    "event_annotation": [
+        {
+            "start": "25",
+            "end": "2057",
+            "type": "Normal"
+        },
+        {
+            "start": "2692",
+            "end": "4371",
+            "type": "Rhonchi"
+        },
+        {
+            "start": "6633",
+            "end": "8094",
+            "type": "Rhonchi"
+        }
+    ]
+}
