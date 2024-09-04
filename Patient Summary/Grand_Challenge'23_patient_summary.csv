@@ -1,0 +1,95 @@
+patient_num,disease,age,gender
+64634665,Bronchitis,3.3,M
+00014365,Control group,4.3,F
+40844382,Bronchitis,4.8,F
+40876967,Bronchitis,4.3,M
+40884475,Pneumonia (non-severe),3.8,F
+40955465,Pneumonia (non-severe),6.9,F
+40958634,Pneumonia (non-severe),7.5,F
+40985693,Bronchitis,3.4,M
+40990420,Pneumonia (non-severe),8.7,F
+40996284,Bronchitis,3,M
+40998698,Pneumonia (non-severe),8.4,F
+41038169,Bronchitis,3.9,F
+41090976,Control group,3.7,M
+41116882,Pneumonia (non-severe),6.9,F
+41117046,Pneumonia (non-severe),4.2,F
+41130419,Pneumonia (non-severe),1.8,M
+41132911,Pneumonia (non-severe),3,M
+41146360,Control group,13.2,M
+41184079,Asthma,6.2,M
+41187065,Asthma,4,F
+41208467,Pneumonia (non-severe),3.4,F
+41213916,Pneumonia (non-severe),3.1,F
+41252549,Bronchitis,0.8,M
+41273150,Other respiratory,0.5,M
+41282750,Other respiratory,1.5,M
+41286238,Other respiratory,0.9,M
+61194700,Bronchitis,13.9,M
+64028588,Pneumonia (non-severe),6.5,F
+64425810,Other respiratory,5.3,F
+64580651,Pneumonia (non-severe),3.8,F
+64824049,Pneumonia (severe),1.5,F
+64973610,Pneumonia (non-severe),2.2,F
+64999124,Control group,1.5,M
+65083184,Bronchitis,2.6,M
+65088494,Pneumonia (non-severe),2.4,F
+65109649,Asthma,4.2,M
+65110711,Asthma,5.9,M
+66209426,Pneumonia (non-severe),0.3,M
+662293914,Pneumonia (non-severe),7.9,M
+66229783,Other respiratory,12.9,M
+66232959,Pneumonia (severe),4.2,F
+66236170,Control group,1.1,M
+66236931,Control group,2,F
+66239166,Asthma,9.6,F
+6624420,Pneumonia (non-severe),0.2,M
+66245245,Asthma,9.9,F
+66252562,Other respiratory,11.7,F
+66257443,Pneumonia (non-severe),3.5,M
+66264302,Pneumonia (non-severe),3,F
+66268083,Pneumonia (non-severe),10,M
+66273805,Pneumonia (non-severe),1.9,F
+66275576,Pneumonia (non-severe),0.3,F
+66276695,Pneumonia (non-severe),0.5,M
+66278400,Pneumonia (non-severe),8.5,F
+66290055,Pneumonia (non-severe),3.4,F
+66292414,Pneumonia (non-severe),6.8,M
+66293753,Control group,1.3,M
+66304841,Control group,0.4,M
+66310495,Control group,0.2,M
+66311310,Pneumonia (non-severe),0.2,F
+66312077,Pneumonia (non-severe),0.5,F
+66312820,Control group,1.6,F
+66313998,Asthma,13.9,F
+66314758,Pneumonia (non-severe),5.8,F
+66315749,Pneumonia (non-severe),1.4,F
+66318539,Pneumonia (non-severe),10.7,F
+66319374,Bronchitis,0.6,F
+66320073,Pneumonia (non-severe),2.5,F
+66323353,Pneumonia (non-severe),5.2,M
+66323637,Control group,5.9,F
+66325603,Pneumonia (non-severe),8.8,F
+66327035,Pneumonia (non-severe),0.1,F
+66327381,Control group,2.1,M
+66327579,Control group,6,F
+66327610,Bronchitis,2.4,F
+66327912,Control group,2.4,F
+66328722,Pneumonia (non-severe),6.4,M
+66329061,Pneumonia (non-severe),9.9,M
+66330319,Other respiratory,3.6,F
+66331727,Bronchitis,5.4,F
+66332023,Other respiratory,2.5,M
+66332198,Bronchitis,16.8,F
+66332353,Pneumonia (non-severe),8.6,F
+66333420,Asthma,10.7,M
+66336391,Asthma,3.3,M
+66338802,Other respiratory,4,M
+66342776,Pneumonia (non-severe),7.6,F
+66345098,Pneumonia (non-severe),13.7,F
+66352067,Pneumonia (non-severe),2.7,F
+66353843,Bronchitis,3.2,F
+66365613,Control group,10.3,F
+66366234,Bronchitis,3.8,F
+66366279,Bronchitis,4.9,M
+-,-,3.9,M
