@@ -11,7 +11,7 @@ This repository contains the released respiratory sound database for IEEE BioCAS
   * [Main Tasks](#maintask)
   * [Evaluation Metrics](#evaluation1)
 
-* [Challenge 2024](#challenge2024)
+* [Challenge 2024 & 2025](#challenge2024)
   * [Main Tracks](#maintracks)
   * [Evaluation Metrics](#evaluation2)
 
