@@ -11,7 +11,7 @@ This repository contains the released respiratory sound database for IEEE BioCAS
   * [Main Tasks](#maintask)
   * [Evaluation Metrics](#evaluation1)
 
-* [Challenge 2024 & 2025](#challenge2024)
+* [Challenge 2024 & 2025](#challenge2025)
   * [Main Tracks](#maintracks)
   * [Evaluation Metrics](#evaluation2)
 
@@ -19,7 +19,7 @@ This repository contains the released respiratory sound database for IEEE BioCAS
 
 
 ## <span id="database">Database</span>
-Our database is the first open access respiratory sound database in the     pediatric population, aging from 1 month to 18 years old. The respiratory sounds contained in the dataset were recorded at the pediatric respiratory department at Shanghai Children’s Medical Center (SCMC) using Yunting model II Stethoscopes. 
+Our database is the first open-access respiratory sound database in the pediatric population, aged from 1 month to 18 years old. The respiratory sounds contained in the dataset were recorded at the pediatric respiratory department at Shanghai Children’s Medical Center (SCMC) using Yunting model II Stethoscopes. 
 
 The recordings are saved in .wav format with naming rules as follows: Each name is composed of 5 elements separated with underscores, including the patient number, age, gender, the recording location, and the recording number of the participants.
 1. Patient number (e.g., 65101170)
@@ -34,9 +34,9 @@ The recordings are saved in .wav format with naming rules as follows: Each name 
     d. right lateral (p4)
 5. Recording number (e.g., 3246)
 
-The annotations at the record and event level are provided in this database. At the record level, each recording with poor signal quality was annotated as Poor Quality, while the recordings with high signal quality were annotated as Normal, CAS, DAS, or CAS & DAS according to the presence/absence of continuous/discontinuous adventitious respiratory sounds. At the event level, each recording was segmented into multiple respiratory event and annotated as Normal, Rhonchi, Wheeze, Stridor, Coarse Crackle, Fine Crackle, or Wheeze+Crackle. 
+The annotations at the record and event level are provided in this database. At the record level, each recording with poor signal quality was annotated as Poor Quality, while the recordings with high signal quality were annotated as Normal, CAS, DAS, or CAS & DAS according to the presence/absence of continuous/discontinuous adventitious respiratory sounds. At the event level, each recording was segmented into multiple respiratory events and annotated as Normal, Rhonchi, Wheeze, Stridor, Coarse Crackle, Fine Crackle, or Wheeze+Crackle. 
 
-The annotation information of each recording is saved in .json format with the same filename, which contains the annotation at record level and event level. The annotation at record level is Normal, CAS, DAS, CAS & DAS or Poor Quality. The annotation at event level consists of the start (ms) and the end (ms) of respiratory events, and the corresponding type of respiratory events (Normal, Rhonchi, Wheeze, Stridor, Coarse Crackle, Fine Crackle, Wheeze+Crackle).
+The annotation information of each recording is saved in .json format with the same filename, which contains the annotation at the record level and event level. The annotation at the record level is Normal, CAS, DAS, CAS & DAS, or Poor Quality. The annotation at event level consists of the start (ms) and the end (ms) of respiratory events, and the corresponding type of respiratory events (Normal, Rhonchi, Wheeze, Stridor, Coarse Crackle, Fine Crackle, Wheeze+Crackle).
 
 An example of annotation file is as follow:
 
@@ -92,7 +92,7 @@ Task 2-2 is a multiclass classification challenge (Normal (N), CAS (C), DAS (D),
 #### Average Score (AS)
 #### Harmonic Score (HS)
 
-## <span id="challenge2024">Challenge 2024</span>
+## <span id="challenge2025">Challenge 2025</span>
 
 ### <span id="maintracks">Main Tracks</span>
 
@@ -123,8 +123,10 @@ This track deals with the detection of onsets and offsets in addition to the ass
 
 ## <span id="publication">Publication</span>
 
-For use in publications and presentations please cite this data collection as follows:
+For use in publications and presentations, please cite this data collection as follows:
 ```
-Q. Zhang, et al. “SPRSound: Open-Source SJTU Paediatric Respiratory Sound Database”, IEEE Transactions on Biomedical Circuits and Systems (TBioCAS), pp. 1-13, 2022, early access.
-Q. Zhang, et al. “Grand Challenge on Respiratory Sound Classification”, IEEE Biomedical Circuits and Systems Conference (BioCAS), 2022, pp. 1-5.
+[Data] Q. Zhang, et al. “SPRSound: Open-Source SJTU Paediatric Respiratory Sound Database”, IEEE Transactions on Biomedical Circuits and Systems (TBioCAS), vol. 16, no. 5, pp. 867-881, Oct, 2022.
+[Competition] Q. Zhang, et al. “Meta: Data Compression and Event Detection Grand Challenge 2024 With SPRSound Dataset”, IEEE Data Descriptions (DD), vol. 1, no. 1, pp. 1-8, Dec, 2024
+[Competition] Q. Zhang, et al. “Grand Challenge on Respiratory Sound Classification for SPRSound Dataset II”, IEEE Biomedical Circuits and Systems Conference (BioCAS), pp. 1-5, Oct, 2023. 
+[Competition] Q. Zhang, et al. “Grand Challenge on Respiratory Sound Classification”, IEEE Biomedical Circuits and Systems Conference (BioCAS), 2022, pp. 1-5.
 ```
