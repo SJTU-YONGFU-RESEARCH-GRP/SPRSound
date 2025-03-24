@@ -1,0 +1,44 @@
+{
+    "event_annotation": [
+        {
+            "start": "302",
+            "end": "3385",
+            "type": "Normal"
+        },
+        {
+            "start": "3441",
+            "end": "5201",
+            "type": "Normal"
+        },
+        {
+            "start": "5267",
+            "end": "6857",
+            "type": "Normal"
+        },
+        {
+            "start": "6912",
+            "end": "8789",
+            "type": "Normal"
+        },
+        {
+            "start": "8845",
+            "end": "10805",
+            "type": "Normal"
+        },
+        {
+            "start": "10874",
+            "end": "12473",
+            "type": "Normal"
+        },
+        {
+            "start": "12554",
+            "end": "14568",
+            "type": "Normal"
+        },
+        {
+            "start": "14584",
+            "end": "15337",
+            "type": "Normal"
+        }
+    ]
+}

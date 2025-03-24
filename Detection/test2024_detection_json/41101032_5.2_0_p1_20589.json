@@ -1,0 +1,39 @@
+{
+    "event_annotation": [
+        {
+            "start": "527",
+            "end": "2613",
+            "type": "Stridor"
+        },
+        {
+            "start": "2637",
+            "end": "4858",
+            "type": "Stridor"
+        },
+        {
+            "start": "4898",
+            "end": "7036",
+            "type": "Stridor"
+        },
+        {
+            "start": "7087",
+            "end": "9420",
+            "type": "Stridor"
+        },
+        {
+            "start": "9487",
+            "end": "11646",
+            "type": "Stridor"
+        },
+        {
+            "start": "11693",
+            "end": "13693",
+            "type": "Stridor"
+        },
+        {
+            "start": "13705",
+            "end": "15273",
+            "type": "Stridor"
+        }
+    ]
+}
