@@ -1,0 +1,34 @@
+{
+    "event_annotation": [
+        {
+            "start": "225",
+            "end": "2139",
+            "type": "Fine Crackle"
+        },
+        {
+            "start": "2200",
+            "end": "4416",
+            "type": "Fine Crackle"
+        },
+        {
+            "start": "4527",
+            "end": "7144",
+            "type": "Fine Crackle"
+        },
+        {
+            "start": "7242",
+            "end": "10123",
+            "type": "Fine Crackle"
+        },
+        {
+            "start": "10204",
+            "end": "12608",
+            "type": "Fine Crackle"
+        },
+        {
+            "start": "12687",
+            "end": "14785",
+            "type": "Fine Crackle"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "event_annotation": [
+        {
+            "start": "538",
+            "end": "2594",
+            "type": "Normal"
+        },
+        {
+            "start": "2628",
+            "end": "4825",
+            "type": "Normal"
+        },
+        {
+            "start": "4874",
+            "end": "7300",
+            "type": "Rhonchi"
+        },
+        {
+            "start": "7356",
+            "end": "9515",
+            "type": "Rhonchi"
+        },
+        {
+            "start": "9599",
+            "end": "11605",
+            "type": "Rhonchi"
+        },
+        {
+            "start": "11689",
+            "end": "13785",
+            "type": "Rhonchi"
+        },
+        {
+            "start": "13834",
+            "end": "15303",
+            "type": "Rhonchi"
+        }
+    ]
+}

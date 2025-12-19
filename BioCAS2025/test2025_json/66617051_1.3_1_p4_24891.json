@@ -1,0 +1,29 @@
+{
+    "event_annotation": [
+        {
+            "start": "1227",
+            "end": "3420",
+            "type": "Wheeze+Crackle"
+        },
+        {
+            "start": "3470",
+            "end": "5673",
+            "type": "Wheeze+Crackle"
+        },
+        {
+            "start": "5717",
+            "end": "8160",
+            "type": "Wheeze+Crackle"
+        },
+        {
+            "start": "8197",
+            "end": "10742",
+            "type": "Wheeze+Crackle"
+        },
+        {
+            "start": "10769",
+            "end": "13471",
+            "type": "Wheeze+Crackle"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "event_annotation": [
+        {
+            "start": "1757",
+            "end": "4090",
+            "type": "Rhonchi"
+        },
+        {
+            "start": "4128",
+            "end": "6391",
+            "type": "Rhonchi"
+        }
+    ]
+}

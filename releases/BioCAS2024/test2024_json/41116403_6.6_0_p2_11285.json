@@ -1,0 +1,44 @@
+{
+    "event_annotation": [
+        {
+            "start": "493",
+            "end": "2223",
+            "type": "Fine Crackle"
+        },
+        {
+            "start": "2277",
+            "end": "4391",
+            "type": "Fine Crackle"
+        },
+        {
+            "start": "4422",
+            "end": "6155",
+            "type": "Fine Crackle"
+        },
+        {
+            "start": "6216",
+            "end": "8460",
+            "type": "Fine Crackle"
+        },
+        {
+            "start": "8521",
+            "end": "10118",
+            "type": "Fine Crackle"
+        },
+        {
+            "start": "10171",
+            "end": "11772",
+            "type": "Fine Crackle"
+        },
+        {
+            "start": "11829",
+            "end": "13568",
+            "type": "Fine Crackle"
+        },
+        {
+            "start": "13613",
+            "end": "15300",
+            "type": "Fine Crackle"
+        }
+    ]
+}
