@@ -91,17 +91,17 @@ The SPRSound dataset is organized into different versions corresponding to each 
 - **Version 2023**: BioCAS 2023 Challenge release (Classification tasks, same as 2022)
   - Contains: Test set only (871 files)
   - Location: `BioCAS2023/` directory
-  - Training: Use BioCAS 2022 training data
+  - Training: Use BioCAS 2022 dataset
   
 - **Version 2024**: BioCAS 2024 Challenge release (Compression & Detection tracks)
   - Contains: Test set only (1,704 files)
   - Location: `BioCAS2024/` directory
-  - Training: Use BioCAS 2022 training data
+  - Training: Use BioCAS 2022 and 2023 datasets
   
 - **Version 2025**: BioCAS 2025 Challenge release (Compression & Detection tracks)
   - Contains: Test set only (1,309 files)
   - Location: `BioCAS2025/` directory
-  - Training: Use BioCAS 2022 training data
+  - Training: Use BioCAS 2022, 2023, and 2024 datasets
 
 ### Directory Structure
 
