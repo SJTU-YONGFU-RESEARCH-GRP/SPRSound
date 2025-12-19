@@ -34,6 +34,7 @@ The recordings are saved in .wav format with naming rules as follows: Each name 
     b. left lateral (p2)
     c. right posterior (p3)
     d. right lateral (p4)
+    e. Additional locations (p5-p8) for 2024 and 2025 challenges
 5. Recording number (e.g., 3246)
 
 The annotations at the record and event level are provided in this database. At the record level, each recording with poor signal quality was annotated as Poor Quality, while the recordings with high signal quality were annotated as Normal, CAS, DAS, or CAS & DAS according to the presence/absence of continuous/discontinuous adventitious respiratory sounds. At the event level, each recording was segmented into multiple respiratory events and annotated as Normal, Rhonchi, Wheeze, Stridor, Coarse Crackle, Fine Crackle, or Wheeze+Crackle. 
@@ -44,90 +45,96 @@ An example of annotation file is as follow:
 
 ```json
 {
-    "recording_annotation": "Normal",
+    "record_annotation": "Normal",
     "event_annotation": [
         {
-            "start": 342, 
-         	"end": 2515, 
+            "start": "342",
+            "end": "2515",
             "type": "Normal"
-        }, {
-            "start": 2557, 
-            "end": 3776, 
+        },
+        {
+            "start": "2557",
+            "end": "3776",
             "type": "Normal"
-        }, {
-            "start": 4547, 
-            "end": 5651, 
+        },
+        {
+            "start": "4547",
+            "end": "5651",
             "type": "Normal"
-        }, {
-            "start": 6439, 
-            "end": 8065, 
+        },
+        {
+            "start": "6439",
+            "end": "8065",
             "type": "Normal"
-        }, {
-            "start": 8363, 
-            "end": 9201, 
+        },
+        {
+            "start": "8363",
+            "end": "9201",
             "type": "Normal"
         }
-	]
+    ]
 }
 ```
 
+**Note**: The `start` and `end` fields are strings representing time in milliseconds. Some annotation files (especially test sets in later years) may only contain `event_annotation` without `record_annotation`.
+
 ## <span id="dataset-versions">Dataset Versions</span>
 
-The SPRSound dataset is organized into different versions corresponding to each challenge year (2022, 2023, 2024, 2025). Each version contains the appropriate train/test splits for that year's challenge.
+The SPRSound dataset is organized into different versions corresponding to each challenge year (2022, 2023, 2024, 2025). Each year's challenge provides a new test set while using previously released data for training.
 
 ### Available Versions
 
 - **Version 2022**: Initial release for BioCAS 2022 Challenge (Classification tasks)
-- **Version 2023**: BioCAS 2023 Challenge release (Classification tasks)
+  - Contains: Training set (1,949 files) + Test set (734 files)
+  - Location: `BioCAS2022/` directory
+  
+- **Version 2023**: BioCAS 2023 Challenge release (Classification tasks, same as 2022)
+  - Contains: Test set only (871 files)
+  - Location: `BioCAS2023/` directory
+  - Training: Use BioCAS 2022 training data
+  
 - **Version 2024**: BioCAS 2024 Challenge release (Compression & Detection tracks)
+  - Contains: Test set only (1,704 files)
+  - Location: `BioCAS2024/` directory
+  - Training: Use BioCAS 2022 training data
+  
 - **Version 2025**: BioCAS 2025 Challenge release (Compression & Detection tracks)
-
-### Creating a Release
-
-To create a release package for a specific version, use the release creation script:
-
-```bash
-# Create a release for version 2024
-python3 scripts/create_release.py --version 2024 --output_dir ./releases
-```
-
-This will create an organized release directory containing:
-- All relevant train/validation/test splits for the specified version
-- README.md, LICENSE, and other documentation
-- Patient summary files
-- Example files and scripts
-- `version_info.json` with dataset statistics
+  - Contains: Test set only (1,309 files)
+  - Location: `BioCAS2025/` directory
+  - Training: Use BioCAS 2022 training data
 
 ### Directory Structure
 
-The dataset is organized as follows:
+Each challenge year has its own directory with a detailed README.md file:
 
 ```
 SPRSound/
-├── Classification/
-│   ├── train_classification_wav/          # Training WAV files (all versions)
-│   ├── train_classification_json/         # Training JSON annotations (all versions)
-│   ├── valid_classification_wav/
-│   │   ├── 2022/                          # 2022 validation set
-│   │   └── 2023/                          # 2023 validation set
-│   └── valid_classification_json/
-│       ├── 2022/                          # 2022 validation annotations
-│       └── 2023/                          # 2023 validation annotations
-├── Detection/
-│   ├── train_detection_wav/               # Training data
-│   ├── train_detection_json/
-│   ├── valid_detection_wav/               # Validation data
-│   ├── valid_detection_json/
-│   ├── test2024_detection_wav/            # 2024 test set
-│   └── test2024_detection_json/
-├── Compression/
-│   ├── train_compression_wav/
-│   ├── valid_compression_wav/
-│   └── test2024_compression_wav/          # 2024 test set
-└── ...
+├── BioCAS2022/                            # BioCAS 2022 Challenge dataset
+│   ├── README.md                          # Detailed documentation
+│   ├── train2022_wav/                     # Training WAV files (1,949 files)
+│   ├── train2022_json/                    # Training JSON annotations (1,949 files)
+│   ├── test2022_wav/                      # Test WAV files (734 files)
+│   └── test2022_json/                     # Test JSON annotations (734 files)
+│       ├── inter_test_json/               # Inter-subject test set (355 files)
+│       └── intra_test_json/              # Intra-subject test set (379 files)
+├── BioCAS2023/                            # BioCAS 2023 Challenge test set
+│   ├── README.md                          # Detailed documentation
+│   ├── test2023_wav/                      # Test WAV files (871 files)
+│   └── test2023_json/                     # Test JSON annotations (871 files)
+├── BioCAS2024/                            # BioCAS 2024 Challenge test set
+│   ├── README.md                          # Detailed documentation
+│   ├── test2024_wav/                      # Test WAV files (1,704 files)
+│   └── test2024_json/                     # Test JSON annotations (1,704 files)
+├── BioCAS2025/                            # BioCAS 2025 Challenge test set
+│   ├── README.md                          # Detailed documentation
+│   ├── test2025_wav/                      # Test WAV files (1,309 files)
+│   └── test2025_json/                     # Test JSON annotations (1,309 files)
+├── Patient Summary/                       # Patient summary CSV files
+├── example/                               # Example files
+└── scripts/                               # Utility scripts
 ```
 
-**Note**: You should organize your 2022 and 2023 validation splits manually in the `Classification/valid_classification_*/` directories before creating releases.
+**Important**: Each year's challenge provides only the test set. For training, please use the training data from the BioCAS 2022 release. Each version directory contains a detailed README.md file with specific information about that year's dataset, including file naming rules, annotation formats, and challenge tasks.
 
 ## <span id="past-challenges">Challenge 2022 & 2023</span>
 
